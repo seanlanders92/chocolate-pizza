@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Oswald|Patrick+Hand&display=swap');
+
+html{
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+header{
+    border-bottom: 23px;
+    height:100px;
+    z-index: 0;
+    clear: both;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+    margin: 0px auto;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    padding-left: 65px;
+}
+
+header nav #imgLogo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 7px;
+}
+header nav ul{
+    position: absolute;
+}
+#fb{
+    position: absolute;
+    top: 15px;
+    left: 919px;
+}
+
+#tw{
+    position: absolute;
+    top: 15px;
+    left: 944px;
+}
+
+#gp{
+    position: absolute;
+    top: 15px;
+    left: 969px;
+}
+
+#ig{
+    position: absolute;
+    top: 15px;
+    left: 994px;
+}
+
+#fl{
+    position: absolute;
+    top: 15px;
+    left: 1019px;
+}
+
+#pint{
+    position: absolute;
+    top: 15px;
+    left: 1044px;
+}
+
+#rss{
+    position: absolute;
+    top: 15px;
+    left: 1084px;
+}
+
+#mail{
+    position: absolute;
+    top: 15px;
+    left: 1109px;
+}
+
+h4{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: gray;
+}
+
+h5{
+    position: absolute;
+    top: 215px;
+    left: 1090px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: gray;
+}
+#pizza{
+    width: 960x;
+    height: auto;
+}
+body main div {
+    background-image: url(lab-assets/hr-img.png);
+    background-repeat: repeat-x repeat-y;
+    width: 900px;
+    height: 15px;
+}
+main p{
+    text-indent: 18px;
+    font-family: 'Noto Serif', serif;
+    color: grey;
+    line-height: 22px;
+    margin-right: 50px;
+}
+
+#recipe{
+    width: 960px;
+    height: 290px;
+    z-index: -1;
+    background-image: url(lab-assets/list-bg.png);
+    background-repeat: repeat-y;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+#list1{
+    z-index: 2;
+    position: absolute;
+    top : 1255px;
+    left: 300px;
+    font-size: 1.7em;
+    font-family: 'Patrick Hand', cursive;
+    color: #777777;
+    
+}
+
+#list2{
+    z-index: 2;
+    position: absolute;
+    top : 1255px;
+    right: 350px;
+    font-size: 1.7em;
+    font-family: 'Patrick Hand', cursive;
+    color: #777777;
+}
+
+li{
+    margin-bottom: 7px;
+}
+
+
+h6{
+    font-size: 1.3em;
+    margin :0px;
+    padding: 0px;
+    font-family: 'Noto serif', serif;
+
+}
+
+div p{
+    font-size: 20px;
+    font-family: 'Noto serif', serif;
+
+}
+
+button{
+    background: rgb(192, 106, 66);
+    border: none;
+    border-radius: 3px;
+    color: blanchedalmond;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px 30px;
+    transition: 350ms;
+}
+button:hover{
+    background: rgb(241, 119, 18);
+}
+
+footer{
+text-align: center;
+    margin: 0 auto;
+}
